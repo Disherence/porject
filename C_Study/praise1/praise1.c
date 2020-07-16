@@ -6,8 +6,9 @@ int main(void)
 {
     char name[40];
     printf("your name:");
-    scanf("%s", name);
-    printf("hello %s.%s", name, PRAISE);
-
+    scanf("%s\n", name);
+    printf("hello %s.%s\n", name, PRAISE);
+    printf("%zd, %zd\n", strlen(name), sizeof(name));
+    printf("%zd, %zd\n", strlen(PRAISE), sizeof(PRAISE));
     return 0;
 }

@@ -3,4 +3,5 @@
 int main(){
     printf("%lu", sizeof(int));
     return 0;
+    printf("");
 }

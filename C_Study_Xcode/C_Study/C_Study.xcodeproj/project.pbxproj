@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A80B5D8824BF56BE0010C998 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A80B5D8724BF56BE0010C998 /* main.c */; };
+		A80B5D8824BF56BE0010C998 /* first.c in Sources */ = {isa = PBXBuildFile; fileRef = A80B5D8724BF56BE0010C998 /* first.c */; };
+		A80B5D9024BF57B30010C998 /* talkback.c in Sources */ = {isa = PBXBuildFile; fileRef = A80B5D8F24BF57B30010C998 /* talkback.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,11 @@
 
 /* Begin PBXFileReference section */
 		A80B5D8424BF56BE0010C998 /* C_Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Study; sourceTree = BUILT_PRODUCTS_DIR; };
-		A80B5D8724BF56BE0010C998 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A80B5D8724BF56BE0010C998 /* first.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = first.c; sourceTree = "<group>"; };
+		A80B5D8E24BF57B30010C998 /* talkback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = talkback.h; sourceTree = "<group>"; };
+		A80B5D8F24BF57B30010C998 /* talkback.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = talkback.c; sourceTree = "<group>"; };
+		A80B5D9124BF5AB40010C998 /* C_Study */ = {isa = PBXFileReference; lastKnownFileType = folder; name = C_Study; sourceTree = "<group>"; };
+		A80B5D9224BF5AC70010C998 /* C_Study */ = {isa = PBXFileReference; lastKnownFileType = folder; name = C_Study; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,11 @@
 		A80B5D8624BF56BE0010C998 /* C_Study */ = {
 			isa = PBXGroup;
 			children = (
-				A80B5D8724BF56BE0010C998 /* main.c */,
+				A80B5D9124BF5AB40010C998 /* C_Study */,
+				A80B5D9224BF5AC70010C998 /* C_Study */,
+				A80B5D8724BF56BE0010C998 /* first.c */,
+				A80B5D8E24BF57B30010C998 /* talkback.h */,
+				A80B5D8F24BF57B30010C998 /* talkback.c */,
 			);
 			path = C_Study;
 			sourceTree = "<group>";
@@ -119,7 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80B5D8824BF56BE0010C998 /* main.c in Sources */,
+				A80B5D9024BF57B30010C998 /* talkback.c in Sources */,
+				A80B5D8824BF56BE0010C998 /* first.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

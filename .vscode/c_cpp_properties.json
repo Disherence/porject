@@ -4,9 +4,9 @@
             "name": "Mac",
             "includePath": [
                 "/Users/yuxianglin/Library/Arduino15/packages/esp8266/tools/**",
-                "/Users/yuxianglin/Library/Arduino15/packages/esp8266/hardware/esp8266/2.7.2/**",
                 "${workspaceFolder}/**",
-                "/Users/yuxianglin/Library/Arduino15/**"
+                "/Users/yuxianglin/Library/Arduino15/**",
+                "/Users/yuxianglin/Library/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/**"
             ],
             "defines": [],
             "macFrameworkPath": [
